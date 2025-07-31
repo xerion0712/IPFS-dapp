@@ -1,7 +1,3 @@
-# decentralized-crowdfunding-app
-
-A decentralized "all or nothing" crowdfunding application named "Make it Happen". It is powered by IPFS and Ethereum smart contracts. It interacts with the DAI stable coin to accept payments and Uniswap to give users the option to pay with DAI using ETH. 
-
 ### Overview of the protocol:
 
 The main contract, Crowdfunder.sol has an external make project function that generates new Project.sol child contracts. These contracts are what hold the collected funds for every respective crowdfunding project. Project.sol only accepts the DAI stable coin as payment so that creators can feel confident that the funding goal they set for their projects will maintain equal value. The only address that can call Project.sol functions is the parent Crowdfunder.sol contract.
@@ -18,7 +14,7 @@ If, however, a project fails to meet its funding goal, supporters can claim a re
 
 ![image](https://user-images.githubusercontent.com/80181942/145728349-4e64cf55-7cd6-46e5-8dc7-06b5fe0cedc0.png)
 
-![image](https://user-images.githubusercontent.com/80181942/145728471-6c00d751-f01f-47d9-8f96-3445ca1c5a8f.png)
+![image](https://user-images.githubusercontent.cm/80181942/145728471-6c00d751-f01f-47d9-8f96-3445ca1c5a8f.png)
 
 ### Overview of the user interface:
 
